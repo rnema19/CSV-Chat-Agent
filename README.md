@@ -58,11 +58,5 @@ Use Ananconda or Jupyter Notebooks for running environment.
  - [Building a CSV assistant]https://blog.mlq.ai/csv-assistant-langchain/)
  
 
-## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
 
