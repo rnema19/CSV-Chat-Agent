@@ -25,3 +25,9 @@ Bot: The names starting with the letter S are as follows:
 
 These names are from the dataframe where either the first or last name starts with the letter S.
 
+User: give me any engineer's name
+Bot: Shelby Terrell
+
+User: what is email for user id 88F7B33d2bcf9f5
+Bot: elijah57@example.net
+

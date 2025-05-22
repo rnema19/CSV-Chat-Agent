@@ -10,9 +10,16 @@ load_dotenv()
 from langchain_experimental.agents import create_csv_agent
 from langchain_ollama import OllamaLLM, OllamaEmbeddings, ChatOllama
 from langchain_core.messages import SystemMessage, AIMessage, HumanMessage
+from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
+
+openai_api_key = os.environ.get("OPENAI_API_KEY")
+google_api_key = os.environ.get("GOOGLE_API_KEY")
 
 def agent(file_path):
-    llm = ChatOllama(model="qwen3:1.7b", temperature=0.5)
+    # llm = ChatOllama(model="qwen3:1.7b", temperature=0.5)
+    # llm = ChatOpenAI(model="gpt-4.1",temperature=0.5)
+    llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash",temperature = 1)
     agent_executor = create_csv_agent(
         llm=llm,
         path=file_path,

@@ -18,3 +18,4 @@ langchain-experimental
 langchain-chroma
 google
 langchain-google-genai
+langchain-openai
