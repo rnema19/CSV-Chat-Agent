@@ -18,4 +18,3 @@ langchain-experimental
 langchain-chroma
 google
 langchain-google-genai
-langchain-community faiss-cpu
