@@ -1,0 +1,27 @@
+User: give me city for customer ID = DD37Cf93aecA6Dc
+Bot: The city for the customer with ID DD37Cf93aecA6Dc is East Leonard.
+
+User: how many rows are there?
+Bot: The dataframe has 100 rows.
+
+User: list all names starting with letter S
+Bot: The names starting with the letter S are as follows:
+
+1. Sheryl Baxter (First Name)
+2. Sheryl Meyers (First Name)
+3. Carl Schroeder (First Name)
+4. Shane Wilcox (First Name)
+5. Shane Santana (First Name)
+6. Nicholas Sosa (First Name)
+7. Sherry Garza (First Name)
+8. Wayne Simpson (First Name)
+9. Sherry Crawford (First Name)
+10. Stacie Richard (First Name)
+11. Shelley Harris (First Name)
+12. Regina Stein (First Name)
+13. Shane Foley (First Name)
+14. Sherry Young (First Name)
+15. Shane Foley (First Name)
+
+These names are from the dataframe where either the first or last name starts with the letter S.
+

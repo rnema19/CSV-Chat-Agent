@@ -1,0 +1,21 @@
+streamlit
+unstructured
+tiktoken
+pinecone
+pypdf
+openai
+langchain
+langchain-community
+pandas 
+numpy
+python-dotenv
+langchain-pinecone
+chromadb
+langchain-ollama
+tabulate
+langchain-core
+langchain-experimental
+langchain-chroma
+google
+langchain-google-genai
+langchain-community faiss-cpu
